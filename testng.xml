@@ -1,0 +1,7 @@
+<suite name="selenium-java">
+    <test name="sample">
+        <classes>
+            <class name="demo.BrowserTest"/>
+        </classes>
+    </test>
+</suite>
