@@ -12,16 +12,6 @@ permissions:
   checks: write
 
 jobs:
-  unit_test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-  integration_test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
   e2e_test:
     runs-on: ubuntu-latest
     steps:
